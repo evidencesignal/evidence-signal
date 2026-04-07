@@ -1,0 +1,17 @@
+# Cursor rules (evidence-signal)
+
+## Scope
+- Package code lives in `src/evidence_signal/`. Respect `src/` layout, `pyproject.toml`, and `tests/`.
+
+## Python
+- Match style enforced by Ruff in `pyproject.toml` (line length 100, target py39+).
+- Prefer small, focused changes; avoid unrelated refactors or new dependencies unless needed for the task.
+- Add or update tests when behavior changes.
+
+## Secrets and env
+- Never commit secrets. Local overrides belong in `.env.local` (gitignored). Do not paste real keys into chat or committed files.
+
+## Communication
+- Prefer clear, direct explanations. When referencing existing code, use proper code citations with file paths when helpful.
+
+You are the Lead Quantitative Engineer for Evidence Signal. We are building an institutional-grade financial terminal for the S&P 500. Use Next.js 14, Tailwind CSS, and Lucide-React. Always prioritize data density, dark-mode aesthetics, and clean, modular code. Our project goal is high-speed market insight
